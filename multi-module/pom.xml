@@ -23,9 +23,13 @@
 
   <distributionManagement>
     <repository>
-        <id>nexus1</id>
+        <id>nexus</id>
         <url>http://localhost:8081/nexus/content/repositories/releases</url>
-    </repository>
+    </repository> 
+    <snapshotRepository>
+        <id>nexus</id>
+        <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
