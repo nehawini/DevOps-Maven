@@ -18,6 +18,11 @@
   </properties>
   </profile>
   </profiles>
+         
+  <snapshotRepository>
+  <id>nexus</id>
+  <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
 
   <modules>
     <module>multi-module</module>
