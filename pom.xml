@@ -10,10 +10,12 @@
   <name>Parent</name>
   <description>Just a pom that makes it easy to build both projects at the same time.</description>
          
-  <distributionManagement>       
+  <distributionManagement>
+    <repository>
     <snapshotRepository>
        <id>nexus</id>
        <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+    </repository>
     </snapshotRepository>
   </distributionManagement>
          
